@@ -1,0 +1,39 @@
+/*  I used only necessary code and tried to avoid repeating to keep the code simple.
+For example <strong> tag got the font from <body> and bold from browser's
+default styling.  */
+
+
+body {
+	font-family: Helvetica;
+}
+
+
+h1 {
+	background-image: url("../resources/pattern.jpg");
+	font-size: 100px;
+	font-weight: bold;
+	color: khaki;
+	text-align: center;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+strong {
+	color: blue;
+}
+
+.brushes {
+	background-color: mediumspringgreen;
+}
+
+.frames {
+	background-color: lightcoral;
+}
+
+.paint {
+	background-color: skyblue;
+}
